@@ -4,8 +4,8 @@ require File.expand_path('../lib/ebay_party/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Chris Potts"]
   gem.email         = ["dev@icpu.co.uk"]
-  gem.description   = ["Ebayapi and httparty fused"]
-  gem.summary       = ["Ebay api and httparty fused"]
+  gem.description   = ["Ebayapi and httparty fused for get categories"]
+  gem.summary       = ["Ebay api and httparty fused for get categories"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "ebay_party"

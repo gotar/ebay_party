@@ -22,15 +22,8 @@ require 'httparty'
                     </GetCategoriesRequest>"
 
       response = post(ebay_party_api_url, :body => requestXml)
- #     puts response
-    
-#      raise "Bad Response | #{response.inspect}" if response.parsed_response['GetCategoriesResponse']['Ack'] != 'Success'
-#      response.parsed_response['GetCategoriesResponse']['Timestamp']
-     
-#      puts EbayApi.get_categories
-
+      raise "Bad Response | #{response.inspect}" if response.parsed_response['GetCategoriesResponse']['Ack'] != 'Success'
     end
-
 
     private
 
