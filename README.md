@@ -25,11 +25,11 @@ Or install it yourself as:
 
 Define your ENV variables for the ebay api (you can get these from ebay developer site), e.g. in bash shell add these to your bashrc:
 
-export ebay_party_dev_id="",
-export ebay_party_app_id="" ,  
-export ebay_party_cert_id="",
-export ebay_party_uri="",
-export ebay_party_auth_token=""
+    export ebay_party_dev_id="",
+    export ebay_party_app_id="" ,  
+    export ebay_party_cert_id="",
+    export ebay_party_uri="",
+    export ebay_party_auth_token=""
 
 Then take your time learning ebay party's single method:
 
