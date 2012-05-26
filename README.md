@@ -25,18 +25,18 @@ Or install it yourself as:
 
 Define your ENV variables for the ebay api (you can get these from ebay developer site), e.g. in bash shell add these to your bashrc:
 
-export ebay_party_dev_id=""
-export ebay_party_app_id=""   
-export ebay_party_cert_id=""
-export ebay_party_uri=""
+export ebay_party_dev_id="",
+export ebay_party_app_id="" ,  
+export ebay_party_cert_id="",
+export ebay_party_uri="",
 export ebay_party_auth_token=""
 
 Then take your time learning ebay party's single method:
 
     EbayParty::EbayApi.get_categories(site, level_limit)
 
-#    'site' refers to ebay site id to fix the scope to your required country e.g. 3 for the UK.
-#    'level_limit' refers to the depth of categories required  e.g. 1 for top level categories only
+'site' refers to ebay site id to fix the scope to your required country e.g. 3 for the UK.
+'level_limit' refers to the depth of categories required  e.g. 1 for top level categories only
 
 
 
